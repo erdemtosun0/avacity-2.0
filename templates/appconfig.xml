@@ -30,14 +30,14 @@
     <globalNews active="true"/>
 
     <clan>
-        <logoUrl>{{ address }}/files/promo/clan/logo/{$id}.png</logoUrl>
+        <logoUrl>{{http://74.161.34.59:8080}}/files/promo/clan/logo/{$id}.png</logoUrl>
     </clan>
 
     <contentConfigs>
         <contentConfig cdn="default">
-            <contentUrl>{{ address }}/files/</contentUrl>
+            <contentUrl>{{http://74.161.34.59:8080}}/files/</contentUrl>
             <contentMirrorUrl></contentMirrorUrl>
-            <furnitureUrl>{{ address }}/files/swf/furniture/</furnitureUrl>
+            <furnitureUrl>{{http://74.161.34.59:8080}}/files/swf/furniture/</furnitureUrl>
             <furnitureMirrorUrl></furnitureMirrorUrl>
         </contentConfig>
     </contentConfigs>
@@ -54,15 +54,15 @@
     <allowedIds></allowedIds>
 
     <preloaderThemes>
-        <theme id="pillows" url="{{ address }}/files/swf/preloader/PillowFightComix_ru.swf"/>
-        <theme id="romance" url="{{ address }}/files/swf/preloader/RomanceComix_ru.swf"/>
-        <theme id="dresses" url="{{ address }}/files/swf/preloader/GirlsDressesComix_ru.swf"/>
+        <theme id="pillows" url="{{http://74.161.34.59:8080}}/files/swf/preloader/PillowFightComix_ru.swf"/>
+        <theme id="romance" url="{{http://74.161.34.59:8080}}/files/swf/preloader/RomanceComix_ru.swf"/>
+        <theme id="dresses" url="{{http://74.161.34.59:8080}}/files/swf/preloader/GirlsDressesComix_ru.swf"/>
     </preloaderThemes>
 
-    <appNotAvailableUrls bgUrl="{{ address }}/files/promo/error/ErrorMessageBg.png">
-        <message>{{ address }}/files/promo/error/ErrorMessage1_ru.png</message>
-        <message>{{ address }}/files/promo/error/ErrorMessage2_ru.png</message>
-        <message>{{ address }}/files/promo/error/ErrorMessage3_ru.png</message>
+    <appNotAvailableUrls bgUrl="{{http://74.161.34.59:8080}}/files/promo/error/ErrorMessageBg.png">
+        <message>{{http://74.161.34.59:8080}}/files/promo/error/ErrorMessage1_ru.png</message>
+        <message>{{http://74.161.34.59:8080}}/files/promo/error/ErrorMessage2_ru.png</message>
+        <message>{{http://74.161.34.59:8080}}/files/promo/error/ErrorMessage3_ru.png</message>
     </appNotAvailableUrls>
 
     <social>
@@ -74,19 +74,19 @@
         </application>
     </social>
     
-    <adminServer>{{ip}}</adminServer>
+    <adminServer>{{74.161.34.59}}</adminServer>
     <adminPort>8123</adminPort>
 
-    <outsideServer>{{ip}}</outsideServer>
+    <outsideServer>{{74.161.34.59}}</outsideServer>
     <outsidePort>8123</outsidePort>
 
-    <houseServer>{{ip}}</houseServer>
+    <houseServer>{{74.161.34.59}}</houseServer>
     <housePort>8123</housePort>
 
-    <workServer>{{ip}}</workServer>
+    <workServer>{{74.161.34.59}}</workServer>
     <workPort>8123</workPort>
 
-    <islandServer>{{ip}}</islandServer>
+    <islandServer>{{74.161.34.59}}</islandServer>
     <islandPort>8123</islandPort>
     
     <resourseMap>
@@ -309,3 +309,4 @@
     </musicTracks>
 
 </config>
+
