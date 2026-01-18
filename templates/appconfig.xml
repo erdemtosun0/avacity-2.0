@@ -30,14 +30,14 @@
     <globalNews active="true"/>
 
     <clan>
-        <logoUrl>{{http://74.161.34.59:8080}}/files/promo/clan/logo/{$id}.png</logoUrl>
+        <logoUrl>{{ address }}/files/promo/clan/logo/{$id}.png</logoUrl>
     </clan>
 
     <contentConfigs>
         <contentConfig cdn="default">
-            <contentUrl>{{http://74.161.34.59:8080}}/files/</contentUrl>
+            <contentUrl>{{ address }}/files/</contentUrl>
             <contentMirrorUrl></contentMirrorUrl>
-            <furnitureUrl>{{http://74.161.34.59:8080}}/files/swf/furniture/</furnitureUrl>
+            <furnitureUrl>{{ address }}/files/swf/furniture/</furnitureUrl>
             <furnitureMirrorUrl></furnitureMirrorUrl>
         </contentConfig>
     </contentConfigs>
@@ -54,15 +54,15 @@
     <allowedIds></allowedIds>
 
     <preloaderThemes>
-        <theme id="pillows" url="{{http://74.161.34.59:8080}}/files/swf/preloader/PillowFightComix_ru.swf"/>
-        <theme id="romance" url="{{http://74.161.34.59:8080}}/files/swf/preloader/RomanceComix_ru.swf"/>
-        <theme id="dresses" url="{{http://74.161.34.59:8080}}/files/swf/preloader/GirlsDressesComix_ru.swf"/>
+        <theme id="pillows" url="{{ address }}/files/swf/preloader/PillowFightComix_ru.swf"/>
+        <theme id="romance" url="{{ address }}/files/swf/preloader/RomanceComix_ru.swf"/>
+        <theme id="dresses" url="{{ address }}/files/swf/preloader/GirlsDressesComix_ru.swf"/>
     </preloaderThemes>
 
-    <appNotAvailableUrls bgUrl="{{http://74.161.34.59:8080}}/files/promo/error/ErrorMessageBg.png">
-        <message>{{http://74.161.34.59:8080}}/files/promo/error/ErrorMessage1_ru.png</message>
-        <message>{{http://74.161.34.59:8080}}/files/promo/error/ErrorMessage2_ru.png</message>
-        <message>{{http://74.161.34.59:8080}}/files/promo/error/ErrorMessage3_ru.png</message>
+    <appNotAvailableUrls bgUrl="{{ address }}/files/promo/error/ErrorMessageBg.png">
+        <message>{{ address }}/files/promo/error/ErrorMessage1_ru.png</message>
+        <message>{{ address }}/files/promo/error/ErrorMessage2_ru.png</message>
+        <message>{{ address }}/files/promo/error/ErrorMessage3_ru.png</message>
     </appNotAvailableUrls>
 
     <social>
@@ -74,19 +74,19 @@
         </application>
     </social>
     
-    <adminServer>{{74.161.34.59}}</adminServer>
+    <adminServer>{{ip}}</adminServer>
     <adminPort>8123</adminPort>
 
-    <outsideServer>{{74.161.34.59}}</outsideServer>
+    <outsideServer>{{ip}}</outsideServer>
     <outsidePort>8123</outsidePort>
 
-    <houseServer>{{74.161.34.59}}</houseServer>
+    <houseServer>{{ip}}</houseServer>
     <housePort>8123</housePort>
 
-    <workServer>{{74.161.34.59}}</workServer>
+    <workServer>{{ip}}</workServer>
     <workPort>8123</workPort>
 
-    <islandServer>{{74.161.34.59}}</islandServer>
+    <islandServer>{{ip}}</islandServer>
     <islandPort>8123</islandPort>
     
     <resourseMap>
@@ -309,4 +309,3 @@
     </musicTracks>
 
 </config>
-
